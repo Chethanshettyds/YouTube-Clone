@@ -1,0 +1,92 @@
+<title>Button Practice</title>
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+  
+  .subscribe-button:hover {
+    opacity:0.8;
+  }
+  
+  .subscribe-button:active{
+    opacity:0.4;
+  }
+  
+  .join-button {
+    background-color: white;
+    color: rgb(61, 61, 235);
+    border-color: rgb(61, 61, 235);
+    height: 36px;
+    border-width: 1px;
+    border-style: solid;
+    width: 62px;
+    border-radius:2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+    color 0.15s;
+    vertical-align: top;
+  }
+  
+  .join-button:hover {
+    background-color: rgb(41, 118, 217);
+    color: white;
+  }
+  
+  .join-button:active {
+    opacity:0.6;
+  }
+  
+  .Tweet-button {
+    background-color:rgb(2, 137, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+  
+  .Tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .request-button {
+    background-color: black;
+    color: white;
+    border-color: red;
+    cursor: pointer;
+    font-size: 10px;
+    border-style: solid;
+    border-width: 8px;
+    height: 38px;
+    width: 97px;
+    margin-left: 15px;
+    transition: opacity 0.15s;
+    border-radius: 2px;
+  }
+  
+  .request-button:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }  
+  
+  
+  .request-button:active {
+    opacity: 0.6;
+  }
